@@ -8,4 +8,4 @@ EXPOSE 5229
 
 VOLUME ['/var/log/system_logs']
 
-CMD ['supervisord', '-n']
+CMD supervisord -n
